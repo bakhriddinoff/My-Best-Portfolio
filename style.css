@@ -261,10 +261,8 @@ h1 {
     background-color:#2AB090;
 }
 
+
 /* Section Testimonials*/
-
-
-
 .testimonials {
     width: 99vw;
     height: 100vh;
@@ -406,3 +404,33 @@ h1 {
     border-top-right-radius: 5px;
 }
 
+/* Recent Work */
+.recenW {
+    height: 95vh;
+}
+
+.work-wrapper {
+    display: flex;
+    justify-self: center;
+    margin-top: 50px;
+}
+
+.work-1 {
+    margin-right: 20px;
+}
+
+.work-2 {
+    margin-left: 30px;
+}
+
+.btn {
+    background-color: #3F8E00;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    margin-top: 30px;
+}
