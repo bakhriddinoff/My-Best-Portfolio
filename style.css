@@ -17,7 +17,7 @@ body {
 
 header {
     background: black;
-    width: 100vw;
+    width: 99vw;
     height: 10vh;
 
 }
@@ -89,6 +89,7 @@ h1 {
 .p-text {
     color: #9C9C9C;
     font-size: 14px;
+    line-height: 2;
 }
 
 .hero-content {
@@ -108,7 +109,7 @@ h1 {
 }
 
 .hero-img {
-    width: 40%;
+    width: 30%;
 }
 
 .text2 {
@@ -130,3 +131,278 @@ h1 {
     border-radius: 5px;
     background-color: black;
 }
+
+/* Section Case Studies */
+.studies {
+    min-height: 155vh;
+}
+
+.heading2 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.text3 {
+    line-height: 2;
+    text-align: center;
+}
+
+.text4 {
+    background-color: #FFF6E9;
+    color: #FFA217;
+    border-radius: 10px;
+    width: 72px;
+    height: 24px;
+    top: 27px;
+    padding: 0px 10px 0px 10px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.text5 {
+    color: #000AFF;
+    background-color:#D0E6FF ;
+    border-radius: 10px;
+    width: 72px;
+    height: 24px;
+    top: 27px;
+    padding: 0px 10px 0px 10px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.text6 {
+    background-color: #FFF6E9;
+    color: #FFA217;
+    border-radius: 10px;
+    width: 72px;
+    height: 24px;
+    top: 27px;
+    padding: 0px 10px 0px 10px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+
+.line1 {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.line2 {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 130px;
+    flex-direction: row-reverse;
+}
+
+.line3 {
+    display: flex;
+    margin-left: 200px;
+}
+
+.line-left {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.line-left1 {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.line-right2 {
+    margin-left: 20px;
+}
+
+.line-left2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading3 {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 800;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button2 {
+    width: 190px;
+    height: 38px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.button3 {
+    background-color:#FFA217;
+}
+
+.button4 {
+    background-color:#000AFF;
+}
+
+.button5 {
+    background-color:#2AB090;
+}
+
+/* Section Testimonials*/
+
+
+
+.testimonials {
+    width: 99vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.top-hero {
+    margin-top: 40px;
+    display: flex;
+    justify-self: center;
+}
+
+.heading4 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    font-weight: 800;
+    color: white;
+}
+
+.text7 {
+    text-align: center;
+}
+
+.client1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+
+.client {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+.top-l {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 70px;
+    position: relative;
+}
+
+.topl {
+    position: absolute;
+    top: -10px;
+    left: 15px;
+}
+
+.top-r {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.topr {
+    position: absolute;
+    top: -10px;
+    left: 15px;
+}
+
+.photo-name {
+    display: flex;
+    justify-self: flex-start;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.client1 {
+    margin-right: 170px;
+}
+
+.clientP1 {
+    margin-right: 30px;
+}
+
+.client {
+    margin-right: 120px;
+}
+
+.clientP {
+    margin-right: 30px;
+}
+
+.bottom-hero {
+    display: flex;
+    margin-top: 40px;
+    display: flex;
+    justify-self: center;
+}
+
+.bottom-l {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 70px;
+    position: relative;
+}
+
+.bottomL {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+}
+
+.bottom-r {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.bottomr {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+}
+
+
+.herocha {
+    width: 445px;
+    height: 212px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-left:1px solid gray;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
