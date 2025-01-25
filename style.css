@@ -59,7 +59,7 @@ nav {
 
 .profPhoto {
     width: 350px;
-    height: 350px;
+    height: 330px;
 }
 
 /* MAIN */
@@ -71,6 +71,7 @@ nav {
 
 .hero-wrapper {
     display: flex;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -122,6 +123,7 @@ h1 {
     margin-left: 50px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .buttonjon {
@@ -273,6 +275,7 @@ h1 {
     margin-top: 40px;
     display: flex;
     justify-self: center;
+    flex-wrap: wrap;
 }
 
 .heading4 {
@@ -360,6 +363,7 @@ h1 {
     margin-top: 40px;
     display: flex;
     justify-self: center;
+    flex-wrap: wrap;
 }
 
 .bottom-l {
@@ -406,7 +410,7 @@ h1 {
 
 /* Recent Work */
 .recenW {
-    height: 95vh;
+    height: 85vh;
 }
 
 .work-wrapper {
@@ -434,3 +438,76 @@ h1 {
     color: white;
     margin-top: 30px;
 }
+
+
+/* Get */
+.get {
+    height: 90vh;
+    background-color: black;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+}
+
+input {
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.textjon {
+    margin-bottom: 50px;
+} 
+
+.social {
+    color: white;
+    font-size: 12px;
+}
+
+.inputjon1 {
+    width: 350px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+::placeholder  {
+    font-family: "IBM Plex Mono", serif;
+}
+
+.inputjon2 {
+    width: 350px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.inputjon3 {
+    width: 350px;
+    height: 120px;
+}
+
+.lastbtn {
+    width: 350px;
+    height: 50px;
+    background-color: #3F8E00;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.created {
+    height: 10vh;
+    background-color: #1B1B1B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.created > p {
+    color: gray;
+}
+
