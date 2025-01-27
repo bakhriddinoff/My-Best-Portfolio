@@ -513,11 +513,13 @@ input {
 
 @media (max-width: 390px) {
     header {
-        width: 390px;
+        width: 838px;
+        height: 90px;
         margin: 0;
     }
     .header-wrapper {
-        width: 180vw;
+        width: 720px;
+        height: 90px;
     }
     nav {
         gap: 30px;
@@ -537,7 +539,7 @@ input {
     }
     .hero  {
         padding: 0;
-        height: 800px;
+        height: 820px;
         width: 216vw;
     }
     .hero-wrapper {
@@ -566,7 +568,7 @@ input {
         margin-bottom: 20px;
     }
     .button1 {
-        margin-bottom: 70px;
+        margin-bottom: 40px;
     }
     .buttons-wrapper {
         margin-top: 0;
