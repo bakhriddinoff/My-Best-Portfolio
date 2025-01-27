@@ -511,3 +511,108 @@ input {
     color: gray;
 }
 
+@media (max-width: 400px) {
+    header {
+        width: 100vh;
+        margin: 0;
+    }
+    .header-wrapper {
+        width: 180vw;
+    }
+    nav {
+        gap: 30px;
+        width: 100vw;
+        margin-left: 100px;
+        margin-right: 0px;
+    }
+    .logo-wrapper {
+        margin-right: 100px;
+    }
+    .menu-item {
+        font-size: 12px;
+        margin-left: 40px;
+    }
+    .logo-wrapper {
+        margin-left: 250px;
+    }
+    .hero  {
+        padding: 0;
+        height: 102vh;
+        width: 216vw;
+    }
+    .hero-wrapper {
+        display: flex;
+        padding-top: 30px;
+        flex-direction: column-reverse;
+        margin: 0;
+        background-color: black;
+
+    }
+    .hero-content {
+        width: 100%;
+    }
+    .profPhoto {
+        margin-left: 260px;
+        width: 250px;
+        height: 250px;
+    }
+    h1 {
+        font-size: 30px;
+        justify-self: center;
+    }
+    .text1 {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .button1 {
+        margin-bottom: 70px;
+    }
+    .buttons-wrapper {
+        margin-top: 0;
+    }
+    .text2 {
+        margin-left: 50px;
+    }
+    .buttonjon {
+        margin-top: 20px;
+    }
+    .button1 {
+        margin-left: 250px;
+    }
+    .line1 {
+        margin: 0;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .line2 {
+        margin: 0;
+    }
+    .line3 {
+        margin: 0;
+    }
+    .line-right {
+        margin: 0;
+    }
+    .line-left {
+        margin: 0;
+    }
+    .line-left2 {
+        margin: 0;
+        justify-self: self-;
+    }
+    .line2 {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin: 0;
+        padding: 0;
+    }
+    .line3 {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .work-wrapper {
+        flex-wrap: wrap;
+    }
+}
+
