@@ -537,7 +537,7 @@ input {
     }
     .hero  {
         padding: 0;
-        height: 102vh;
+        height: 200vh;
         width: 216vw;
     }
     .hero-wrapper {
