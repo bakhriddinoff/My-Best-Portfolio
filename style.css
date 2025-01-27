@@ -511,7 +511,7 @@ input {
     color: gray;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 390px) {
     header {
         width: 100vh;
         margin: 0;
